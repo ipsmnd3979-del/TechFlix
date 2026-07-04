@@ -1,0 +1,1005 @@
+[27-Jun-2026 21:41:27 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[27-Jun-2026 21:41:27 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 21:41:31 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 21:41:31 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:41:31 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 21:41:31 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:41:43 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 21:41:43 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:41:43 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 21:41:43 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:42:08 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[27-Jun-2026 21:42:08 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 21:46:29 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[27-Jun-2026 21:46:29 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 21:46:30 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[27-Jun-2026 21:46:30 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 21:46:32 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 21:46:32 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:46:32 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 21:46:32 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:46:33 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 21:46:33 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:46:33 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 21:46:33 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:46:33 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[27-Jun-2026 21:46:33 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 21:46:40 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 21:46:40 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:46:40 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 21:46:40 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:46:48 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 21:46:48 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:46:48 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 21:46:48 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:46:51 Europe/Berlin] Exception: Call to a member function fetch_assoc() on bool in C:\xampp\htdocs\TechFlix\player.php on line 44
+[27-Jun-2026 21:48:33 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                WHERE c.type = ?
+[27-Jun-2026 21:48:33 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  WHERE c.type = ?
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 21:48:37 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                WHERE cat.name = ? AND c.type = ?
+[27-Jun-2026 21:48:37 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  WHERE cat.name = ? AND c.type = ?
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 21:48:40 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[27-Jun-2026 21:48:40 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 21:48:43 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 21:48:43 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:48:43 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 21:48:43 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:48:46 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                WHERE c.type = ?
+[27-Jun-2026 21:48:46 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  WHERE c.type = ?
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 21:48:47 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[27-Jun-2026 21:48:47 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 21:48:51 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 21:48:51 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:48:51 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 21:48:51 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:48:54 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                WHERE c.type = ?
+[27-Jun-2026 21:48:54 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  WHERE c.type = ?
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 21:48:58 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[27-Jun-2026 21:48:58 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 21:49:03 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 21:49:03 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:49:03 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 21:49:03 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 21:49:08 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                WHERE c.type = ?
+[27-Jun-2026 21:49:08 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  WHERE c.type = ?
+                  ORDER BY c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 22:09:26 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 22:09:26 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:09:26 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 22:09:26 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:09:28 Europe/Berlin] Exception: Call to a member function fetch_assoc() on bool in C:\xampp\htdocs\TechFlix\player.php on line 44
+[27-Jun-2026 22:13:09 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 22:13:09 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:13:09 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 22:13:09 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:29:50 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 22:29:50 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:29:50 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 22:29:50 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:29:52 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 22:29:52 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:29:52 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 22:29:52 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:29:54 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 22:29:54 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:29:54 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 22:29:54 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:29:54 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 22:29:54 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:29:54 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 22:29:54 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:29:58 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[27-Jun-2026 22:29:58 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 22:30:04 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[27-Jun-2026 22:30:04 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 22:30:06 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[27-Jun-2026 22:30:06 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 22:30:07 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[27-Jun-2026 22:30:07 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 22:30:10 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                WHERE cat.name = ?
+[27-Jun-2026 22:30:10 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  WHERE cat.name = ?
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[27-Jun-2026 22:30:15 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 22:30:15 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:30:15 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 22:30:15 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:30:39 Europe/Berlin] Exception: Call to a member function fetch_assoc() on bool in C:\xampp\htdocs\TechFlix\player.php on line 44
+[27-Jun-2026 22:33:50 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[27-Jun-2026 22:33:50 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[27-Jun-2026 22:33:50 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[27-Jun-2026 22:33:50 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:31:42 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[04-Jul-2026 14:31:42 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:31:42 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[04-Jul-2026 14:31:42 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:32:03 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[04-Jul-2026 14:32:03 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:32:03 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[04-Jul-2026 14:32:03 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:33:29 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[04-Jul-2026 14:33:29 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:33:29 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[04-Jul-2026 14:33:29 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:41:35 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[04-Jul-2026 14:41:35 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[04-Jul-2026 14:41:39 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[04-Jul-2026 14:41:39 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:41:39 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[04-Jul-2026 14:41:39 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:41:40 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[04-Jul-2026 14:41:40 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[04-Jul-2026 14:41:41 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[04-Jul-2026 14:41:41 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:41:41 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[04-Jul-2026 14:41:41 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:41:43 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[04-Jul-2026 14:41:43 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:41:43 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[04-Jul-2026 14:41:43 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:41:44 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[04-Jul-2026 14:41:44 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[04-Jul-2026 14:46:14 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[04-Jul-2026 14:46:14 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:46:14 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[04-Jul-2026 14:46:14 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:46:19 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[04-Jul-2026 14:46:19 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:46:19 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[04-Jul-2026 14:46:19 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:46:25 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[04-Jul-2026 14:46:25 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:46:25 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[04-Jul-2026 14:46:25 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:46:35 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[04-Jul-2026 14:46:35 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:46:35 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[04-Jul-2026 14:46:35 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:46:35 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[04-Jul-2026 14:46:35 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:46:35 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[04-Jul-2026 14:46:35 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:47:58 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[04-Jul-2026 14:47:58 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[04-Jul-2026 14:49:06 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.rating DESC, c.created_at DESC
+     LIMIT 50
+[04-Jul-2026 14:49:06 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND c.rating >= 8.0
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:49:06 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie'
+     ORDER BY c.created_at DESC
+     LIMIT 10
+[04-Jul-2026 14:49:06 Europe/Berlin] Query failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+     FROM content c
+     LEFT JOIN categories cat ON c.category_id = cat.id
+     WHERE c.type = 'movie' AND cat.name = 'Action'
+     ORDER BY c.rating DESC
+     LIMIT 10
+[04-Jul-2026 14:59:20 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[04-Jul-2026 14:59:20 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[04-Jul-2026 14:59:23 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[04-Jul-2026 14:59:23 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[04-Jul-2026 14:59:25 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[04-Jul-2026 14:59:25 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[04-Jul-2026 15:00:11 Europe/Berlin] browse.php count prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT COUNT(*) as total
+                FROM content c
+                LEFT JOIN categories cat ON c.category_id = cat.id
+                
+[04-Jul-2026 15:00:11 Europe/Berlin] browse.php content prepare failed: Table 'ott_platform.content' doesn't exist | SQL: SELECT c.*, cat.name as category_name
+                  FROM content c
+                  LEFT JOIN categories cat ON c.category_id = cat.id
+                  
+                  ORDER BY c.rating DESC, c.created_at DESC
+                  LIMIT ? OFFSET ?
+[04-Jul-2026 15:04:16 Europe/Berlin] Exception: Call to undefined function getCorrectImagePath() in C:\xampp\htdocs\TechFlix\tvshows.php on line 50
+[04-Jul-2026 15:07:18 Europe/Berlin] Exception: Call to a member function fetch_assoc() on bool in C:\xampp\htdocs\TechFlix\player.php on line 44
+[04-Jul-2026 15:07:27 Europe/Berlin] Exception: Call to a member function fetch_assoc() on bool in C:\xampp\htdocs\TechFlix\player.php on line 44
+[04-Jul-2026 15:07:39 Europe/Berlin] Exception: Call to a member function fetch_assoc() on bool in C:\xampp\htdocs\TechFlix\player.php on line 44
+[04-Jul-2026 15:08:33 Europe/Berlin] Content ID 73 - content_url: NULL
+[04-Jul-2026 15:08:33 Europe/Berlin] Player - ID: 73, Title: The Adam Project, URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4, Status: No content_url found in database - Using sample video as fallback
+[04-Jul-2026 15:08:33 Europe/Berlin] Local file path: 
+[04-Jul-2026 15:09:11 Europe/Berlin] Content ID 73 - content_url: NULL
+[04-Jul-2026 15:09:11 Europe/Berlin] Player - ID: 73, Title: The Adam Project, URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4, Status: No content_url found in database - Using sample video as fallback
+[04-Jul-2026 15:09:11 Europe/Berlin] Local file path: 
+[04-Jul-2026 15:09:28 Europe/Berlin] Content ID 73 - content_url: NULL
+[04-Jul-2026 15:09:28 Europe/Berlin] Player - ID: 73, Title: The Adam Project, URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4, Status: No content_url found in database - Using sample video as fallback
+[04-Jul-2026 15:09:28 Europe/Berlin] Local file path: 
+[04-Jul-2026 15:09:42 Europe/Berlin] Content ID 74 - content_url: NULL
+[04-Jul-2026 15:09:42 Europe/Berlin] Player - ID: 74, Title: Atlas, URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4, Status: No content_url found in database - Using sample video as fallback
+[04-Jul-2026 15:09:42 Europe/Berlin] Local file path: 
+[04-Jul-2026 15:10:04 Europe/Berlin] Content ID 68 - content_url: NULL
+[04-Jul-2026 15:10:04 Europe/Berlin] Player - ID: 68, Title: Kalki, URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4, Status: No content_url found in database - Using sample video as fallback
+[04-Jul-2026 15:10:04 Europe/Berlin] Local file path: 
+[04-Jul-2026 15:11:33 Europe/Berlin] Content ID 68 - content_url: NULL
+[04-Jul-2026 15:11:33 Europe/Berlin] Player - ID: 68, Title: Kalki, URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4, Status: No content_url found in database - Using sample video as fallback
+[04-Jul-2026 15:11:33 Europe/Berlin] Local file path: 
+[04-Jul-2026 15:11:37 Europe/Berlin] Content ID 68 - content_url: NULL
+[04-Jul-2026 15:11:37 Europe/Berlin] Player - ID: 68, Title: Kalki, URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4, Status: No content_url found in database - Using sample video as fallback
+[04-Jul-2026 15:11:37 Europe/Berlin] Local file path: 
+[04-Jul-2026 15:11:52 Europe/Berlin] Content ID 73 - content_url: NULL
+[04-Jul-2026 15:11:52 Europe/Berlin] Player - ID: 73, Title: The Adam Project, URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4, Status: No content_url found in database - Using sample video as fallback
+[04-Jul-2026 15:11:52 Europe/Berlin] Local file path: 
+[04-Jul-2026 15:12:03 Europe/Berlin] Content ID 73 - content_url: NULL
+[04-Jul-2026 15:12:03 Europe/Berlin] Player - ID: 73, Title: The Adam Project, URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4, Status: No content_url found in database - Using sample video as fallback
+[04-Jul-2026 15:12:03 Europe/Berlin] Local file path: 
+[04-Jul-2026 15:16:27 Europe/Berlin] Content ID 73 - content_url: NULL
+[04-Jul-2026 15:16:27 Europe/Berlin] Player - ID: 73, Title: The Adam Project, URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4, Status: No content_url found in database - Using sample video as fallback
+[04-Jul-2026 15:16:27 Europe/Berlin] Local file path: 
+[04-Jul-2026 15:16:30 Europe/Berlin] Content ID 73 - content_url: NULL
+[04-Jul-2026 15:16:30 Europe/Berlin] Player - ID: 73, Title: The Adam Project, URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4, Status: No content_url found in database - Using sample video as fallback
+[04-Jul-2026 15:16:30 Europe/Berlin] Local file path: 
+[04-Jul-2026 15:17:30 Europe/Berlin] Content ID 73 - content_url: NULL
+[04-Jul-2026 15:17:30 Europe/Berlin] Player - ID: 73, Title: The Adam Project, URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4, Status: No content_url found in database - Using sample video as fallback
+[04-Jul-2026 15:17:30 Europe/Berlin] Local file path: 
+[04-Jul-2026 15:17:35 Europe/Berlin] Content ID 73 - content_url: NULL
+[04-Jul-2026 15:17:35 Europe/Berlin] Player - ID: 73, Title: The Adam Project, URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4, Status: No content_url found in database - Using sample video as fallback
+[04-Jul-2026 15:17:35 Europe/Berlin] Local file path: 
+[04-Jul-2026 15:17:45 Europe/Berlin] Content ID 68 - content_url: NULL
+[04-Jul-2026 15:17:45 Europe/Berlin] Player - ID: 68, Title: Kalki, URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4, Status: No content_url found in database - Using sample video as fallback
+[04-Jul-2026 15:17:45 Europe/Berlin] Local file path: 
