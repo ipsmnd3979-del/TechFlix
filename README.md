@@ -1,7 +1,3 @@
-#OTT Platform Development
-
-
-
 
 If you want to build a professional OTT platform similar to Netflix, Amazon Prime, or Disney+, here is a complete AI prompt that can generate the entire architecture, UI, database, and backend while using **PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap**.
 
